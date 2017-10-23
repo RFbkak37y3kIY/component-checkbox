@@ -47,6 +47,9 @@ group | String | null | Group name to work synchronously with other checkboxes
 
 #### .set() ####
 
+Set the given state.
+Does nothing in case the value is already as necessary.
+
 Name | Type | Default value | Description
 ----- | ----- | ------------- | -------------
 value | Boolean | false | value new value to set
