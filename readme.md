@@ -23,14 +23,13 @@ npm install spa-component-checkbox
 Add the singleton to the scope:
 
 ```js
-var checkbox = require('spa-component-checkbox');
+var CheckBox = require('spa-component-checkbox');
 ```
 
 Create instance with custom config:
 
 ```js
-var CheckBox = require('stb/ui/check.box'),
-    checkBox = new CheckBox({
+var checkBox = new CheckBox({
         value: true,
         group: 'lang'
     });
