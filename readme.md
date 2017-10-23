@@ -26,6 +26,42 @@ Add the singleton to the scope:
 var checkbox = require('spa-component-checkbox');
 ```
 
+Create instance with custom config:
+
+```js
+var CheckBox = require('stb/ui/check.box'),
+    checkBox = new CheckBox({
+        value: true,
+        group: 'lang'
+    });
+```
+
+### Constructor config ###
+
+Name | Type | Default value | Description
+----- | ----- | ------------- | -------------
+value | Boolean | false | Initial state
+group | String | null | Group name to work synchronously with other checkboxes
+
+### Methods ###
+
+#### .set() ####
+
+Name | Type | Default value | Description
+----- | ----- | ------------- | -------------
+value | Boolean | false | value new value to set
+{return} | Boolean | false | operation status
+
+
+
+#### Examples ####
+
+```js
+var _checked;
+_checked = checkBox.set(true); 
+console.log('checked = ', _checked) // Output: _checked = true
+
+```
 
 ## Development mode ##
 
