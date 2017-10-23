@@ -30,9 +30,9 @@ Create instance with custom config:
 
 ```js
 var checkBox = new CheckBox({
-        value: true,
-        group: 'lang'
-    });
+    value: true,
+    group: 'lang'
+});
 ```
 
 ### Constructor config ###
